@@ -1,0 +1,171 @@
+body {
+  margin: 0px;
+}
+
+
+nav {
+  display: flex;
+  align-items: center;
+  font-family:Helvetica, sans-serif;
+  padding: 36px;
+  
+}
+
+.logo {
+  
+  height: 25px;
+}
+
+.links {
+  display: flex;
+}
+
+.links li {
+  list-style: none;
+  margin-right: 15px;
+  font-size: 18px;
+  color:grey;
+}
+
+.profile {
+  display: flex;
+  height: 80vh;
+}
+.pajaro{
+width: 208px;
+position: absolute;
+top: 300px;  
+right: 80px;
+}
+
+#profile-img {
+  width: 50%;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 0;
+  font-family:Helvetica, sans-serif;
+  font-weight: normal;
+  color:#DC958B;
+}
+
+h3 {
+  font-size: 20px;
+  font-family:Helvetica, sans-serif;
+  font-weight: normal;
+  color: gray;
+}
+p{
+  font-size: 16px;
+  font-family:Helvetica, sans-serif;
+  font-weight: lighter;
+  width: 500px;
+  color: gray;
+}
+
+.profile-info {
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 200px;
+  
+}
+
+.projects {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 100px;
+ 
+  
+}
+
+.project {
+  display: flex;
+  border-radius: 4px;
+  margin-bottom: 50px;
+  color: gray;
+  margin-bottom: 200px;
+}
+
+.project-img {
+  width: 923px;
+  margin-right: 45px;
+}
+
+h4 {
+  font-size: 36px;
+  font-family:Helvetica, sans-serif;
+  
+  }
+
+  h5{
+  font-size: 26px;
+  font-family:Helvetica, sans-serif;
+  
+
+  }
+
+.project-description {
+  font-size: 18px;
+  font-family:Helvetica, sans-serif;
+}
+
+a {
+  color:#DC958B;;
+  text-decoration: none;
+  font-family:Helvetica, sans-serif;
+  
+}
+
+a:hover {
+  font-size: 20px;
+  color: rgba(156, 156, 156, 0.74);
+}
+
+.contacto{
+ color: #DC958B;
+ padding: 100px;
+ justify-content: center;
+ display: flex;
+ 
+}
+
+.telefono{
+ margin-right: 29px;
+}
+
+@media only screen and (max-width: 414px) {
+  
+  .desktop-screen {
+    display: none;
+  }
+  
+}
+
+@media only screen and (min-width: 415px) {
+  .desktop-screen {
+    display: block;
+  }
+  .mobile-screen {
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 415px) and (max-width: 768px) {
+  
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  
+}
+
+@media only screen and (min-width: 1441px) {
+  
+}
